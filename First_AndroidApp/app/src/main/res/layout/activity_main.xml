@@ -59,17 +59,30 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="395dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="393dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
         android:hint="PIN"
         android:inputType="numberPassword"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="@+id/myTextField"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/myTextField"
         app:layout_constraintTop_toBottomOf="@+id/myTextField" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="372dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:srcCompat="@drawable/settings" />
 
 </android.support.constraint.ConstraintLayout>
