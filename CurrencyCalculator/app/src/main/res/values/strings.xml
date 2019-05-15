@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Currency Calculator</string>
+    <string name="title">EUR  &lt;-&gt;     PLN</string>
+    <string name="clicker">Convert</string>
+    <string name="OFF">EUR</string>
+    <string name="ON">PLN</string>
+</resources>
