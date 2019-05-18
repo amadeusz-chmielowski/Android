@@ -24,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
         Random generator = new Random();
         try {
             EditText text = findViewById(R.id.numbers);
-
-            if(Integer.valueOf(text.getText().toString()) == number){
+            int value = Integer.valueOf(text.getText().toString());
+            if(value == number){
                makeToast("Congrats!");
                 number = generator.nextInt(secondNumber)+1;
             }
-            else if(Integer.valueOf(text.getText().toString()) > number){
-                makeToast("Higher!");
+            else if(value > number){
+                makeToast("Lower!");
             }
             else{
-                makeToast("Lower");
+                makeToast("Higher");
             }
             text.setText("");
         }
